@@ -53,17 +53,9 @@ O Swagger está disponivel em `localhost:8080/swagger-ui/index.html`, para teste
 
 
 ## Testes
-Para executar os testes, utilize o Maven:
-
-    ```bash
-    mvn test
-
 Os testes de comportamento são escritos em BDD usando Cucumber e estão localizados em `src/test/resources/features`.
 
+Para executar os testes, utilize o Maven:
 
-
-
-
-
-
-
+   ```bash
+    mvn test
