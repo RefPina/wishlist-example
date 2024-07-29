@@ -3,7 +3,6 @@ package com.example.wishlist.controller;
 import com.example.wishlist.model.Product;
 import com.example.wishlist.model.Wishlist;
 import com.example.wishlist.service.WishlistService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

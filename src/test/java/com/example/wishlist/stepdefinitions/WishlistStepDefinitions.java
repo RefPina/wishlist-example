@@ -1,6 +1,5 @@
 package com.example.wishlist.stepdefinitions;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
