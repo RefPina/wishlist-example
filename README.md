@@ -23,8 +23,8 @@ Este serviço gerencia a Wishlist de clientes. Ele permite adicionar, remover, c
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
-   cd wishlist-service
+   git clone https://github.com/RefPina/wishlist-example.git
+   cd wishlist
 
 2. Construa e execute os containers Docker:
     ```bash
@@ -32,8 +32,7 @@ Este serviço gerencia a Wishlist de clientes. Ele permite adicionar, remover, c
 
 3. O serviço estará disponível em http://localhost:8080.
 
-### API Endpoints
-
+## API Endpoints
 + POST /wishlist/{customerId}/products/{productId}: Adiciona um produto à Wishlist do cliente
   
    + Exemplo de corpo da requisição:
@@ -49,6 +48,9 @@ Este serviço gerencia a Wishlist de clientes. Ele permite adicionar, remover, c
 + GET /wishlist/{customerId}: Consulta todos os produtos da Wishlist do cliente
 + GET /wishlist/{customerId}/products/{productId}: Verifica se um determinado produto está na Wishlist do cliente
 
+### Swagger
+O Swagger está disponivel em `localhost:8080/swagger-ui/index.html`, para testes e modelos dos endpoints.
+
 
 ## Testes
 Para executar os testes, utilize o Maven:
@@ -57,7 +59,6 @@ Para executar os testes, utilize o Maven:
     mvn test
 
 Os testes de comportamento são escritos em BDD usando Cucumber e estão localizados em `src/test/resources/features`.
-
 
 
 
